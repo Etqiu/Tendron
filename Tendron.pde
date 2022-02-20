@@ -14,7 +14,7 @@ public void draw()
 {
   background(0);
   Cluster c = new Cluster(25, 250, 250); // initial number of segments in the tendril and starting (x,y) coordinate
-  System.out.println(bright);
+
   if (theColor>255) {
     theColor = 0;
   }
