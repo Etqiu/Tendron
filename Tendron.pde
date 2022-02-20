@@ -22,12 +22,12 @@ public void draw()
 public void mousePressed() {
   bright = (int)(Math.random()*100 )+ 125;
 }
-public void mouseWheel() {
+public void mouseWheel() {//useless function
 
-  theColor+=5;
-  bright+=10;
+
 }
-public void keyPressed() //useless function
+public void keyPressed() 
 {
-  redraw();
+    theColor+=5;
+  bright+=10;
 }
